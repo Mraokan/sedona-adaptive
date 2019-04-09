@@ -1,0 +1,13 @@
+{
+  "name": "Sedona",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ]
+}
