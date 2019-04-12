@@ -31,3 +31,18 @@ body {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+@media (min-width: 1200px) {
+  html {
+    background-color: $grey;
+  }
+
+  body {
+    width: 1200px;
+    margin: 0 auto;
+
+    background-color: white;
+
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+  }
+}

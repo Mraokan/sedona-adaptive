@@ -4,16 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Sedona</title>
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body class="body">
 
     <header class="header">
-      <img class="header__logo" src="#" width="102" height="83" alt="City of Sedona">
-      <button class="navigation__open" type="button">
-        <span class="visually-hidden">
-          Открыть меню
-        </span>
-      </button>
       <nav class="header__navigation navigation">
         <button class="navigation__close" type="button">
           <span class="visually-hidden">
@@ -22,17 +17,17 @@
         </button>
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a class="navigation__link" href="#">
+            <a class="navigation__link" href="index.html">
               Главная
             </a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="#">
+            <a class="navigation__link" href="photo.html">
               Фото и видео
             </a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="#">
+            <a class="navigation__link navigation__link--active">
               Форма отзыва
             </a>
           </li>
@@ -43,6 +38,16 @@
           </li>
         </ul>
       </nav>
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+        <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+        <img class="header__img" width="102" height="84" src="img/logo-sedona-mobile.svg" alt="City of Sedona">
+      </picture>
+      <button class="navigation__open" type="button">
+        <span class="visually-hidden">
+          Открыть меню
+        </span>
+      </button>
     </header>
 
     <main class="main main--form">
