@@ -9,9 +9,6 @@
   padding: 0;
 }
 
-.socials__item {
-}
-
 .socials__link {
   display: block;
   width: 46px;
@@ -32,4 +29,13 @@
 
 .socials__link--youtube {
   background-image: url("../img/icon-youtube-white.svg");
+}
+
+.socials__link:hover,
+.socials__link:focus {
+  background-color: $blue-hover;
+}
+
+.socials__link:active {
+  opacity: 0.5;
 }

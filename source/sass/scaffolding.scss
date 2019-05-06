@@ -33,6 +33,33 @@ body {
   box-sizing: inherit;
 }
 
+.button {
+  display: block;
+  height: 58px;
+
+  font-size: 21px;
+  line-height: 26px;
+  font-family: inherit;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  background-color: $blue;
+  border: none;
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: $blue-hover;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: $blue-active;
+}
+
 @media (min-width: 1200px) {
   html {
     background-color: $grey;
