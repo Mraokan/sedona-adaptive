@@ -333,6 +333,7 @@
   }
 
   .form__contact {
+    width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
@@ -362,6 +363,10 @@
     justify-content: space-between;
     width: 460px;
     margin: 0 auto;
+  }
+
+  .form__wrapper--contacts {
+    width: auto;
   }
 
   .form__check-label {

@@ -79,7 +79,7 @@
 
         <fieldset class="form__fieldset form__contacts">
           <legend class="form__legend">Контактная информация:</legend>
-          <div class="form__wrapper">
+          <div class="form__wrapper form__wrapper--contacts">
             <label class="form__contact form__contact--tel">
               <p class="form__label-text form__contact-text">
                 <span>Контактный</span> телефон*:
@@ -188,14 +188,14 @@
       <h2 class="popup__title">Ваш отзыв отправлен!</h2>
       <p class="popup__text">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
       <div class="popup__wrap">
-        <button class="popup__button" type="button">Закрыть окно</button>
+        <button class="popup__button button" type="button">Закрыть окно</button>
       </div>
     </div>
 
-    <div class="popup popup--fail">
+    <div class="popup popup--fail  display-block">
       <h2 class="popup__title popup__title--fail">Что-то пошло не так!</h2>
       <p class="popup__text popup__text--fail">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-      <button class="popup__button button" type="button">OK</button>
+      <button class="popup__button popup__button--fail button" type="button">OK</button>
     </div>
   </body>
 </html>
